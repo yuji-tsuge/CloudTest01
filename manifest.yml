@@ -1,0 +1,9 @@
+declared-services:
+ workload-scheduler:
+  label: WorkloadScheduler
+  plan: Standard
+applications:
+- memory: 512M
+  disk_quota: 1024M
+  path: helloWorkloadApp.war
+  instances: 1
